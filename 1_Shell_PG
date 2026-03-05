@@ -1,0 +1,55 @@
+Shell Script Program
+Title
+
+Student Marks Result System
+
+Problem Statement
+
+Write a shell script that performs the following tasks:
+
+Accept the name of a student.
+
+Accept marks of 3 subjects from the user.
+
+Calculate the total and average marks.
+
+Display the result according to the following conditions:
+
+Average Marks	Result
+≥ 60	First Class
+≥ 50 and < 60	Second Class
+≥ 40 and < 50	Pass
+< 40	Fail
+
+Store the result in a file named result.txt.
+
+Expected Output Example
+Enter student name: Rahul
+Enter marks for Subject 1: 70
+Enter marks for Subject 2: 65
+Enter marks for Subject 3: 60
+
+Total Marks: 195
+Average Marks: 65
+
+Result: First Class
+
+File result.txt should contain:
+
+Student Name: Rahul
+Marks: 70 65 60
+Average: 65
+Result: First Class
+Concepts Covered
+
+Students will practice:
+
+read (user input)
+
+arithmetic operations
+
+if-elif-else
+
+variables
+
+file output (>> result.txt)
